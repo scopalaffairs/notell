@@ -28,14 +28,14 @@ Especially useful when you and your colleagues are on the same network.
    cd notell
    ```
 
-0. Install dependencies. It may take a while to install all the dependencies, please be patient :D
+0. Install dependencies.
 
     ```bash
     npm install
     ```
 
-    Note: package.json defines the node version in the range >=6.8.1 <6.9.5
-    Other versions throw errors.
+    > Note: package.json defines the node version in the range >=6.8.1 <6.9.5 
+    > Other versions throw errors.
 
     The setup will automatically create a config file `var/config.coffee` and a demo ppt `usr/demo_ppt.ejs`.
 
