@@ -34,6 +34,9 @@ Especially useful when you and your colleagues are on the same network.
     npm install
     ```
 
+    Note: package.json defines the node version in the range >=6.8.1 <6.9.5
+    Other versions throw errors.
+
     The setup will automatically create a config file `var/config.coffee` and a demo ppt `usr/demo_ppt.ejs`.
 
 0. Edit the `var/config.coffee` file. Change the value of the `token`, this is the password for logging in as host.
